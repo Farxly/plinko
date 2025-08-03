@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #1a1a1a, #333);
+  color: white;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+#plinko-board {
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  background: #222;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.peg {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 145px;
+  transition: top 0.2s, left 0.2s;
+}
